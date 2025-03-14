@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: krzpro
+my:
+  custom:
+    property: Hello from application properties
+app:
+  myProperty: false
