@@ -1,8 +1,20 @@
 spring:
   application:
     name: krzpro
+  main:
+    banner-mode: off
+
 my:
   custom:
-    property: Hello from application properties
+    login-url: test-login
+    credentials:
+      user: test-user
+      password: pass
+
 app:
   myProperty: false
+
+logging:
+  level:
+    root: off
+

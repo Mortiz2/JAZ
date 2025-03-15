@@ -13,3 +13,4 @@ public class FirstComponent {
         System.out.println("FirstComponent from printNameAndMethod method");
     }
 }
+//-Dspring.profiles.active=dev
