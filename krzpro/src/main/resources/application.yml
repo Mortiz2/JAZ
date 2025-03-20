@@ -13,8 +13,10 @@ my:
 
 app:
   myProperty: false
+  environment: qa
 
 logging:
   level:
     root: off
+
 
