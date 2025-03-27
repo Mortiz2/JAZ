@@ -3,6 +3,11 @@ spring:
     name: krzpro
   main:
     banner-mode: off
+  profiles:
+    active: dev
+
+server:
+  port: 8081
 
 my:
   custom:
