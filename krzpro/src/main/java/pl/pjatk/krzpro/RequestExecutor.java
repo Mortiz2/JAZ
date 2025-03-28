@@ -14,6 +14,6 @@ public class RequestExecutor implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        System.out.println(facadeService.execute());
+        System.out.println(facadeService.getMessage());
     }
 }
