@@ -19,7 +19,7 @@ public class MessageController {
 
     @GetMapping("/message")
     public ResponseEntity<String> getMessage() {
-        String message = facadeService.execute();
+        String message = facadeService.getMessage();
         return ResponseEntity.ok(message);
     }
 }

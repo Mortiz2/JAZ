@@ -22,7 +22,7 @@ public class FacadeService {
         this.environment = environment.toLowerCase();
     }
 
-    public String execute() {
+    public String getMessage() {
         return serviceMap.getOrDefault(environment, serviceMap.get("dev")).getMessage();
     }
 }
