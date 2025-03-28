@@ -1,0 +1,5 @@
+app:
+  environment: prod
+
+server:
+  port: 8082

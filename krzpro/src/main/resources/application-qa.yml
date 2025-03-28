@@ -1,0 +1,5 @@
+app:
+  environment: qa
+
+server:
+  port: 8081

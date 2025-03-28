@@ -1,2 +1,6 @@
 app:
   myProperty: true
+  environment: dev
+
+server:
+  port: 8080
