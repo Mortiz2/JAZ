@@ -2,7 +2,12 @@ spring:
   application:
     name: krzpro
   main:
-    banner-mode: off
+    banner-mode:
+  profiles:
+    active: ${APP_ENV:dev}
+
+server:
+  port: 8080
 
 my:
   custom:
@@ -13,10 +18,8 @@ my:
 
 app:
   myProperty: false
-  environment: qa
+  environment: ${APP_ENV:dev}
 
 logging:
   level:
     root: off
-
-
